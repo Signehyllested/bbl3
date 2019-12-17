@@ -183,7 +183,7 @@ header nav a:visited {
 #om .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
     flex-wrap: wrap-reverse;
 }
@@ -206,6 +206,7 @@ header nav a:visited {
     flex-grow: 2;
     flex-basis: 700px;
     margin-right: 1rem;
+    margin-left: 2rem;
 }
 
 
@@ -225,7 +226,7 @@ header nav a:visited {
 
 #instagram a {
     text-decoration: none;
-    color: #8b6b52;
+    color: #c7aea0;
 }
 
 
@@ -285,7 +286,7 @@ header nav a:visited {
 }
 
 #footer .kontakt a {
-    color: #E0DDD7;
+    color: #c7aea0;
 }
 
 #footer .aabningstider .kontakt .some {
@@ -356,7 +357,7 @@ header nav a:visited {
 #produkter img {}
 
 
-/***Kontakt***/
+/***Kontakt***********************/
 
 #kontakt .sectionwrapper {
     display: flex;
@@ -365,8 +366,16 @@ header nav a:visited {
 
     padding: 5rem;
     margin: 1rem;
-    border-color: #563D31;
+    border-color: #c7aea0;
     border-style: solid;
+}
+
+#kontakt h1 {
+    color: #453832;
+}
+
+#kontakt a {
+    color: #c7aea0;
 }
 
 #kontakt .aabningstider p {
@@ -378,9 +387,11 @@ header nav a:visited {
 
 #kontakt .aabningstider .kontakt {
     flex-grow: 1;
-    flex-basis: 300px;
-    padding: 1.6rem;
+    flex-basis: 200px;
 }
+
+#kontakt .kontakt {}
+
 
 
 /******Behandlinger*****/
@@ -482,7 +493,7 @@ a {
 
 .accordion:after {
     content: '\002B';
-    color: #777;
+    color: #453832;
     font-weight: bold;
     float: right;
     margin-left: 5px;
