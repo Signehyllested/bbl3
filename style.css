@@ -26,8 +26,6 @@ sectionwrapper {
 
 h1 {
     font-size: 2.5rem;
-    text-emphasis: Bold;
-    /*    color: #453832;*/
 }
 
 h2 {
@@ -329,8 +327,9 @@ header nav a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
+    border: 1px solid #453832;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #produkter .col {
@@ -345,16 +344,15 @@ header nav a:visited {
 }
 
 #produkter .bottom {
+    /*    hjælp få til bunden*/
     border: 1px solid #c7aea0;
-    margin: 1px;
+    margin: 0.2px;
     background-color: #c7aea0;
     text-align: center;
-    padding: 10px;
-    width: 300px;
+    padding: 0.7rem;
     color: white;
 }
 
-#produkter img {}
 
 
 /***Kontakt***********************/
@@ -379,7 +377,6 @@ header nav a:visited {
 }
 
 #kontakt .aabningstider p {
-
     border-bottom-style: solid;
     border-bottom-width: thin;
     word-spacing: 15rem;
@@ -389,10 +386,6 @@ header nav a:visited {
     flex-grow: 1;
     flex-basis: 200px;
 }
-
-#kontakt .kontakt {}
-
-
 
 /******Behandlinger*****/
 
@@ -408,8 +401,6 @@ header nav a:visited {
     flex-basis: 200px;
     margin: 0.5rem 0.1rem;
 
-
-
 }
 
 #behandlinger h2,
@@ -417,8 +408,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
-
 
 /******Behandlinger SLUT*****/
 
@@ -433,7 +422,6 @@ a {
 #ansigtsbehandlinger .sectionwrapper {
     padding: 1rem;
     margin: 2rem;
-
 }
 
 
@@ -442,8 +430,6 @@ a {
     flex-wrap: wrap;
 
 }
-
-
 
 .box {
     flex-grow: 1;
