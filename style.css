@@ -489,7 +489,10 @@ a {
 }
 
 
-#col_box {
+#col_box1,
+#col_box2,
+#col_box3,
+#col_box4 {
     display: flex;
     flex-wrap: wrap;
 
@@ -588,7 +591,7 @@ a {
         display: inline-block;
     }
 
-    header a {
+    header li {
         display: inline-block;
         letter-spacing: 1px;
 
@@ -599,7 +602,7 @@ a {
     }
 
 
-    header nav a {
+    header nav li {
         padding: 0.3rem;
         background-color: transparent;
         margin: 0.8rem;
