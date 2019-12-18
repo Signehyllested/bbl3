@@ -136,12 +136,12 @@ header nav a:visited {
 
 #logo_splash {
     background-image: url(billeder/logo.svg);
-    height: 30vw;
-    width: 60vw;
+    height: 40vw;
+    width: 80vw;
     background-size: cover;
     position: absolute;
-    top: 20vw;
-    left: 20vw;
+    top: 70vw;
+    left: 10vw;
 }
 
 #splash_produkter {
@@ -154,9 +154,6 @@ header nav a:visited {
 }
 
 #overskrift h1 {
-    position: relative;
-    left: 60vw;
-    top: 40vw;
     color: white;
     font-size: 4rem;
     margin: 0;
@@ -239,6 +236,19 @@ header nav a:visited {
 
 
 /****** om slut ******/
+
+/****** Promo Video ******/
+#video {
+    display: flex;
+    width: 100px;
+    /*    padding: 1rem;*/
+}
+
+#video video {
+    /*    margin: 0 12rem;*/
+}
+
+/****** Promo Video SLUT ******/
 
 /****** Instagram ******/
 
@@ -362,10 +372,9 @@ header nav a:visited {
 
 
 #produkter .col {
-    flex-basis: 200px;
+    flex-basis: 400px;
     flex-grow: 1;
     padding: 1rem;
-
 }
 
 #produkter h2 {
@@ -405,19 +414,13 @@ header nav a:visited {
     width: 100%;
     /*    scroll-snap-points-x: repeat(100%);*/
     scroll-snap-type: x mandatory;
-
-
     /*height: 50vw;
     width: 100vw;*/
 }
 
-
-
 img {
     width: 100%;
     scroll-snap-align: start;
-
-
 }
 
 /***Kontakt***********************/
@@ -425,8 +428,9 @@ img {
 #kontakt .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
-    padding: 5rem;
+    padding: 3rem;
     margin: 1rem;
     border-color: #c7aea0;
     border-style: solid;
@@ -440,16 +444,18 @@ img {
     color: #c7aea0;
 }
 
-#kontakt .aabningstider p {
+#kontakt .col_1 p {
     border-bottom-style: solid;
     border-bottom-width: thin;
-    word-spacing: 15rem;
+    word-spacing: 3rem;
 }
 
-#kontakt .aabningstider .kontakt {
+#kontakt .col_1 .col_2 {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 400px;
+    padding: 1.2rem;
 }
+
 
 /******Behandlinger*****/
 
@@ -462,7 +468,7 @@ img {
 
 #behandlinger .col {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 300px;
     margin: 0.5rem 0.1rem;
 
 }
@@ -610,6 +616,16 @@ a {
         text-decoration: none;
         color: black;
     }
+
+    #logo_splash {
+        background-image: url(billeder/logo.svg);
+        height: 30vw;
+        width: 60vw;
+        background-size: cover;
+        position: absolute;
+        top: 20vw;
+        left: 20vw;
+    }
 }
 
 @media only screen and (min-width:800px) {
@@ -655,5 +671,38 @@ a {
         color: white;
         text-align: center;
         padding: 1rem;
+    }
+}
+
+@media only screen and (min-width:625px) {
+    #kontakt .sectionwrapper {
+        padding: 5rem;
+    }
+
+    #kontakt .col_1 .col_2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding: 1.2rem;
+    }
+
+    #kontakt .col_1 p {
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        word-spacing: 15rem;
+    }
+}
+
+@media only screen and (min-width:605px) {
+    #behandlinger .col {
+        flex-grow: 1;
+        flex-basis: 400px;
+
+    }
+}
+
+@media only screen and (min-width:800px) {
+    #behandlinger .col {
+        flex-grow: 1;
+        flex-basis: 300px;
     }
 }
