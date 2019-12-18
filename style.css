@@ -405,6 +405,7 @@ header nav a:visited {
 a {
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 /******Behandlinger SLUT*****/
