@@ -351,6 +351,17 @@ header nav a:visited {
     color: white;
 }
 
+#overskrift .exuviance h1 {
+
+    position: absolute;
+    top: 40vw;
+    right: 40vw;
+
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
 
 
 /***Kontakt***********************/
