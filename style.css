@@ -385,11 +385,11 @@ header nav a:visited {
 #overskrift .exuviance h1 {
 
     position: absolute;
-    top: 40vw;
-    right: 40vw;
+    top: 50vw;
+    left: 60vw;
 
     color: white;
-    font-size: 4rem;
+    font-size: 5.5rem;
     margin: 0;
 }
 
@@ -512,6 +512,17 @@ a {
     font-weight: bold;
     text-decoration: none;
     color: #563D31;
+}
+
+#overskrift .and h1 {
+
+    position: absolute;
+    top: 56vw;
+    left: 45vw;
+
+    color: white;
+    font-size: 3.5rem;
+    margin: 0;
 }
 
 /******Ansigtsbehandlinger SLUT*****/
