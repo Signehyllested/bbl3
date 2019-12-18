@@ -356,14 +356,17 @@ header nav a:visited {
     border: 1px solid #453832;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
+
+
 
 #produkter .col {
-    flex-basis: 400px;
+    flex-basis: 200px;
     flex-grow: 1;
     padding: 1rem;
-}
 
+}
 
 #produkter h2 {
     color: #453832;
@@ -372,10 +375,10 @@ header nav a:visited {
 #produkter .bottom {
     /*    hjælp få til bunden*/
     border: 1px solid #c7aea0;
-    margin: 0.2px;
+    margin: 0.1rem;
     background-color: #c7aea0;
     text-align: center;
-    padding: 0.7rem;
+    padding: 0.1rem;
     color: white;
 }
 
@@ -391,6 +394,29 @@ header nav a:visited {
 }
 
 
+#container {
+
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    scroll-snap-points-x: repeat(100%);
+    scroll-snap-type: x mandatory;
+
+
+    /*height: 50vw;
+    width: 100vw;*/
+}
+
+
+
+img {
+    width: 100%;
+    scroll-snap-align: start;
+
+
+}
 
 /***Kontakt***********************/
 
