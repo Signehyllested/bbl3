@@ -22,3 +22,16 @@ function toggleMenu() {
         document.querySelector("#menuknap").textContent = "X";
     }
 }
+
+
+function logoClick() {
+    console.log("logoclick");
+    document.querySelector("#logo").addEventListener("click", visForside);
+}
+
+function visForside() {
+    console.log("visForside");
+
+
+
+}
