@@ -403,7 +403,7 @@ header nav a:visited {
     overflow-y: hidden;
     white-space: nowrap;
     width: 100%;
-    scroll-snap-points-x: repeat(100%);
+/*    scroll-snap-points-x: repeat(100%);*/
     scroll-snap-type: x mandatory;
 
 
