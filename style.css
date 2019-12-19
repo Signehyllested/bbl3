@@ -118,15 +118,15 @@ header nav a:visited {
 }
 
 .video_container video {
-    /* Make video to at least 100% wide and tall */
+    /* 100% bred og høj */
     min-width: 100%;
     min-height: 100%;
 
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    /* Så videoen ikke bliver strukket */
     width: auto;
     height: auto;
 
-    /* Center the video */
+    /* Centrering af videoen */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -217,8 +217,8 @@ header nav a:visited {
     margin-top: 2rem;
     margin-bottom: 2rem;
     flex-wrap: wrap-reverse;
-    border-color: #c7aea0;
-    border-style: solid;
+    border-bottom: solid #c7aea0;
+    border-top: solid #c7aea0;
 }
 
 #om h1 {
@@ -250,6 +250,10 @@ header nav a:visited {
     display: flex;
     align-items: center;
     align-content: center;
+    border-bottom: solid #c7aea0;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+
 }
 
 .promo_video video {
@@ -375,18 +379,21 @@ header nav a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid #c7aea0;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    margin: 2rem;
     overflow: hidden;
+    border: solid #c7aea0;
 }
 
-
+#produkter h2 {
+    margin: 0;
+}
 
 #produkter .col {
     flex-basis: 400px;
     flex-grow: 1;
-    padding: 1rem;
+    padding: 0.5rem;
+
 }
 
 #produkter h1 {
@@ -399,8 +406,7 @@ header nav a:visited {
 }
 
 #produkter .bottom {
-    /*    hjælp få til bunden*/
-    border: 1px solid #c7aea0;
+    max-width: 15rem;
     margin: 0.1rem;
     background-color: #c7aea0;
     text-align: center;
@@ -420,8 +426,6 @@ header nav a:visited {
     width: 100%;
     /*    scroll-snap-points-x: repeat(100%);*/
     scroll-snap-type: x mandatory;
-    /*height: 50vw;
-    width: 100vw;*/
 }
 
 img {
@@ -493,13 +497,19 @@ a {
 
 #ansigtsbehandlinger h1 {
     color: #453832;
-
+    margin: 0;
 }
 
 
 #ansigtsbehandlinger .sectionwrapper {
     padding: 1rem;
     margin: 2rem;
+}
+
+#ansigtsbehandlinger .col_overall {
+    border: solid #a78a7b;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 
